@@ -1,0 +1,535 @@
+body {
+    height: 1200vh;
+    background: linear-gradient(to bottom, rgb(97, 153, 197)0%, rgb(2, 2, 94)50%, rgb(2, 6, 9)100%);
+    width: auto;
+}
+
+
+h1 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+.one {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    object-position: top;
+}
+
+p1 {
+    display: none;
+    width: 20%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 150px;
+    right: 50px
+}
+
+.two {
+    position: absolute;
+    top: -10px;
+    right: 400px;
+    width: 70%;
+    animation: horizontalMove 5s infinite ease-in-out;
+}
+
+p2 {
+    display: none;
+    width: 20%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 550px;
+    right: 50px
+}
+
+.three {
+    position: absolute;
+    top: 700px;
+    right: 0px;
+    width: 35%;
+}
+
+p3 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 900px;
+    right: 600px
+}
+
+.four {
+    position: absolute;
+    top: 1200px;
+    left: 0px;
+    width: 50%;
+
+}
+
+p4 {
+    display: none;
+    width: 35%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 1300px;
+    right: 150px
+}
+
+h2 {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    top: 1600px;
+    left: 500px;
+
+}
+
+.five {
+    position: absolute;
+    top: 1600px;
+    left: 500px;
+    width: 30%;
+    animation: horizontalMove 3s infinite ease-in-out;
+
+}
+
+p5 {
+    display: none;
+    width: 22%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 1700px;
+    left: 300px
+}
+
+.six {
+    position: absolute;
+    top: 2000px;
+    right: 0px;
+    width: 25%;
+
+}
+
+p6 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 1800px;
+    right: 10px
+}
+
+.sixa {
+    position: absolute;
+    top: 2000px;
+    left: 0px;
+    width: 55%;
+    animation: verticalMove 4s infinite ease-in-out;
+}
+
+p7 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 2000px;
+    left: 50px
+}
+
+h3 {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    top: 2500px;
+    left: 500px;
+
+}
+
+.seven {
+    position: absolute;
+    top: 2800px;
+    left: 300px;
+    width: 15%;
+
+}
+
+p8 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 2650px;
+    left: 50px
+}
+
+.eight {
+    position: absolute;
+    top: 2500px;
+    right: 20px;
+    width: 60%;
+    animation: verticalMove 5s infinite ease-in-out;
+}
+
+p9 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 3000px;
+    right: 50px
+}
+
+.nine {
+    position: absolute;
+    top: 3300px;
+    left: 200px;
+    width: 10%;
+    animation: horizontalMove 3s infinite ease-in-out;
+}
+
+p10 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 3300px;
+    left: 500px
+}
+
+h4 {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    top: 3200px;
+    left: 500px;
+}
+
+h5 {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    top: 3600px;
+    left: 500px;
+}
+
+.ten {
+    position: absolute;
+    top: 3800px;
+    left: 10px;
+    width: 60%;
+}
+
+p11 {
+    display: none;
+    width: 25%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 4000px;
+    right: 100px
+}
+
+h6 {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    top: 4400px;
+    left: 500px;
+}
+
+.eleven {
+    position: absolute;
+    top: 4500px;
+    right: 40px;
+    width: 30%;
+    animation: horizontalMove 7s infinite ease-in-out;
+}
+
+p12 {
+    display: none;
+    width: 25%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 4800px;
+    right: 30px
+}
+
+.twelve {
+    position: absolute;
+    top: 4500px;
+    left: 10px;
+    width: 60%;
+}
+
+p13 {
+    display: none;
+    width: 25%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 4900px;
+    left: 100px
+}
+
+.thirteen {
+    position: absolute;
+    top: 5000px;
+    left: 10px;
+    width: 60%;
+}
+
+p14 {
+    display: none;
+    width: 25%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 5200px;
+    left: 800px
+}
+
+h7 {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    top: 5600px;
+    left: 500px;
+}
+
+.fourteen {
+    position: absolute;
+    top: 5700px;
+    right: 300px;
+    width: 20%;
+    animation: horizontalMove 3s infinite ease-in-out;
+}
+
+p15 {
+    display: none;
+    width: 25%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 5700px;
+    left: 400px
+}
+
+.fifthteen {
+    position: absolute;
+    top: 5800px;
+    right: 300px;
+    width: 70%;
+    animation: verticalMove 7s infinite ease-in-out;
+}
+
+p16 {
+    display: none;
+    width: 40%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 6300px;
+    left: 400px
+}
+
+h8 {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    top: 6500px;
+    left: 500px;
+}
+
+.sixteen {
+    position: absolute;
+    top: 6600px;
+    right: 0px;
+    width: 60%;
+}
+
+p17 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 6800px;
+    left: 100px
+}
+
+h9 {
+    display: none;
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    top: 7200px;
+    left: 500px;
+}
+
+.seventeen {
+    position: absolute;
+    top: 7300px;
+    right: 300px;
+    width: 20%;
+    animation: horizontalMove 5s infinite ease-in-out;
+}
+
+p18 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 7350px;
+    right: 700px
+}
+
+h10 {
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    top: 7550px;
+    left: 500px;
+}
+
+.eighteen {
+    position: absolute;
+    top: 7600px;
+    right: 300px;
+    width: 30%;
+}
+
+p19 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 7700px;
+    right: 800px
+}
+
+.nineteen {
+    position: absolute;
+    top: 7900px;
+    right: 300px;
+    width: 30%;
+    animation: verticalMove 6s infinite ease-in-out;
+}
+
+p20 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 8000px;
+    right: 800px
+}
+
+.twity {
+    position: absolute;
+    top: 8400px;
+    right: 500px;
+    width: 10%;
+}
+
+p21 {
+    display: none;
+    width: 30%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    color: white;
+    position: absolute;
+    top: 8400px;
+    right: 800px
+}
+
+@keyframes horizontalMove {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100px);
+        /* 向右移动 */
+    }
+
+    100% {
+        transform: translateX(0);
+        /* 移回原位 */
+    }
+}
+
+@keyframes verticalMove {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(100px);
+        /* 向下移动 */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* 移回原位 */
+    }
+}
